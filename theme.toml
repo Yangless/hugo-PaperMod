@@ -50,3 +50,26 @@ min_version = "0.146.0"
   author = "nanxiaobei"
   homepage = "https://github.com/nanxiaobei"
   repo = "https://github.com/nanxiaobei/hugo-paper/"
+
+
+[params]
+  comments = true
+
+[params.page.comment.giscus]
+  enable = true
+  repo = "Yangless/Discussions"
+  repoId = "R_kgDOQFK5JQ"
+  category = "Announcements"
+  categoryId = "DIC_kwDOQFK5Jc4Cw0ZW"
+
+  # 自动适配主题语言
+  lang = "en"
+
+  mapping = "pathname"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  lazyLoading = false
+  lightTheme = "light"
+  darkTheme = "dark_dimmed"
+
